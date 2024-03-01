@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Features.AddRecordActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/customerName_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Customer Name"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:endIconMode="clear_text"
+        app:boxStrokeWidth="0.5dp"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/customerName"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/productName_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Product Name"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeWidth="0.5dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/productName"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Quantity_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Quantity"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeWidth="0.5dp"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:endIconMode="clear_text"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/Quantity"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/purchaseDate_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Purchase Date"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeWidth="0.5dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/purchaseDate"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contactNumber_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Contact Number"
+        app:endIconMode="clear_text"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeWidth="0.5dp"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/contactNumber"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outletLocation_Layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="22dp"
+        android:hint="Outlet Location"
+        app:endIconMode="clear_text"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeWidth="0.5dp"
+        app:boxStrokeColor="@color/box_stroke_color"
+        app:boxCornerRadiusTopStart="22.5dp"
+        app:boxCornerRadiusTopEnd="22.5dp"
+        app:boxCornerRadiusBottomStart="22.5dp"
+        app:boxCornerRadiusBottomEnd="22.5dp"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/outletLocation"
+            android:drawableTint="@color/box_stroke_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/box_stroke_color"
+            android:ems="12"
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:lineHeight="30dp"
+            android:textFontWeight="300"
+            android:textAlignment="center"
+            android:paddingBottom="-1dp"
+            android:paddingTop="-1dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:id="@+id/btn_save"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="SAVE"
+            android:paddingHorizontal="30sp"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp">
+
+        </Space>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:id="@+id/btn_getData"
+            android:paddingHorizontal="30sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="GET DATA"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

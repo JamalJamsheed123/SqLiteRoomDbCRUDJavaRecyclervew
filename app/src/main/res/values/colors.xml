@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_text_color">#FF000000</color>
+    <color name="app_background_color">#333C4B</color>
+    <color name="text_hint_color">#000000</color>
+    <color name="box_stroke_color">#39A6E8</color>
+    <color name="image_color">#ED0861F7</color>
+    <color name="logout_btn_color">#FF0000</color>
+    <color name="red1">#FF0000</color>
+    <color name="cardbg">#F6F6F6</color>
+    <color name="icon_border_color">#12309C</color>
+    <color name="widget_color">#014F97</color>
+    <color name="appAction_bar">#D31A8DD5</color>
+    <color name="nav_background">#E41A8DD5</color>
+    <color name="cardbrakecolor">#FFFFFF</color>
+    <color name="spinnercolordrop">#FFFFFF</color>
+    <color name="spinnercolorbackgroung">#000000</color>
+    <color name="colorBlue">#2DA3CA</color>
+    <color name="cardbg5">#e4e9ef</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#9A9A9A</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+</resources>
